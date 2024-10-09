@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import FC from './Components/FunctionalComp';
 import {ClassComp1,ClassComp2} from './Components/ClassComp';
-import Click from './Components/click';
-
+import Click1 from './Components/click';
+import Counter from './Components/counter';
 
 function App() {
   return (
@@ -29,7 +29,8 @@ function App() {
             <FC></FC>
             <ClassComp1></ClassComp1>
             <ClassComp2></ClassComp2>
-            <Click />
+            <Click1 />
+            <Counter/>
         </div>
        
   );
