@@ -7,11 +7,15 @@ class Click extends Component {
             count:0
     }  
      }
+
+    UpdateClick=()=>{
+        this.setState({count:this.state.count+1});
+    }
     render() { 
         const {count}=this.state;
         return ( 
             <div>
-                <button>CLICKED {count} TIMES</button>
+                <button onClick={this.UpdateClick}>CLICKED {count} TIMES</button>
             </div>
          );
     }
